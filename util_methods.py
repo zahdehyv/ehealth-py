@@ -1,8 +1,7 @@
 from scripts.anntools import Collection, ENTITIES
 import spacy
 
-tokenize = spacy.load("es_core_news_md")
-def get_dataset_from_collection(c: Collection):
+def get_dataset_from_collection(c: Collection, tokenize):
     total = 0
     added_s_e = 0
     retrieved = 0
