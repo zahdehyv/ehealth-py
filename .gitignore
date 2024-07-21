@@ -13,6 +13,11 @@ __pycache__/
 
 # Hidden
 .hidden
+2024/
+docs/
+.vscode/
+.trs/
+
 
 # Distribution / packaging
 .Python
