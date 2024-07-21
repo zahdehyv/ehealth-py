@@ -11,6 +11,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Hidden
+.hidden
+
 # Distribution / packaging
 .Python
 build/
@@ -145,3 +148,5 @@ dmypy.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 2021/training.zip
 scores*
+.hidden/.trs/corpora-master.zip
+finetune.ipynb
