@@ -1,5 +1,4 @@
 from scripts.anntools import Collection, ENTITIES
-import spacy
 
 def get_dataset_from_collection(c: Collection, tokenize):
     total = 0

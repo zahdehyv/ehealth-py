@@ -155,3 +155,11 @@ dmypy.json
 scores*
 .hidden/.trs/corpora-master.zip
 finetune.ipynb
+scripts/test_ign.py
+2021/submissions/submitt/scenario1-main/output.ann
+2021/submissions/submitt/scenario1-main/output.txt
+2021/submissions/submitt/scenario2-taskA/output.ann
+2021/submissions/submitt/scenario2-taskA/output.txt
+2021/submissions/submitt/scenario3-taskB/output.ann
+2021/submissions/submitt/scenario3-taskB/output.txt
+ehealth_kd_gliner_finetune.ipynb
