@@ -10,7 +10,7 @@ def get_dataset_from_collection(c: Collection):
     for sentence in c.sentences:
         new_dct = {}
         tokens = tokenize(sentence.text)
-        new_dct['tokenized_text'] = list(tokens)
+        new_dct['tokenized_text'] = [str(tok.text) for tok in tokens]
         new_dct['ner'] = []
         for keyphr in sentence.keyphrases:
             span1 = keyphr.spans[0]
