@@ -1,0 +1,14 @@
+{
+    "bert_size": 768,
+    "charencoding_size": 50,
+    "postag_size": 50,
+    "dependency_size": 50,
+    "entitytype_size": 50,
+    "entitytag_size": 50,
+    "bilstm_path_hidden_size": 100,
+    "lstm_path_hidden_size": 50,
+    "tree_lstm_hidden_size": 50,
+    "bilstm_dropout_chance": 0.2,
+    "lstm_dropout_chance": 0.5,
+    "tree_lstm_dropout_chance": 0.5
+}

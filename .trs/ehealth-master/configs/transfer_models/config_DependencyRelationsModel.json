@@ -1,0 +1,10 @@
+{
+    "word_encoding_size": 300,
+    "dependency_size": 50,
+    "entity_type_size": 25,
+    "entity_tag_size": 25,
+    "tree_lstm_hidden_size": 300,
+    "bilstm_hidden_size": 300,
+    "relations_dense_size": 300,
+    "dropout_chance": 0.2
+}

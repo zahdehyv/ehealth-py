@@ -1,0 +1,14 @@
+{
+    "bert_size": 768,
+    "charencoding_size": 50,
+    "postag_size": 50,
+    "dependency_size": 50,
+    "entitytype_size": 50,
+    "entitytag_size": 50,
+    "bilstm_entities_size": 48,
+    "dropout_entities_chance": 0.5,
+    "lstm_sentence_input_size": 64,
+    "lstm_sentence_hidden_size": 48,
+    "dropout_sentence1_chance": 0.2,
+    "dropout_sentence2_chance": 0.5
+}

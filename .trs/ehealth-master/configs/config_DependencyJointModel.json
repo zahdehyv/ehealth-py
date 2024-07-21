@@ -1,0 +1,14 @@
+{
+    "charencoding_size": 50,
+    "postag_size": 50,
+    "dependency_size": 50,
+    "entity_type_size": 25,
+    "entity_tag_size": 25,
+    "tree_lstm_hidden_size": 300,
+    "bilstm_relations_hidden_size": 300,
+    "bilstm_shared_hidden_size": 300,
+    "relations_dense_size": 300,
+    "shared_dropout_chance": 0.2,
+    "relations_dropout_chance": 0.2,
+    "embedding_path": "./trained/embeddings/wiki_classic/wiki_classic.wv"
+}
